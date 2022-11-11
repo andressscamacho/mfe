@@ -11,7 +11,7 @@ defaults:
     working-directory: packages/container
 
 jobs:
-  build:
+  build-container:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
